@@ -1,8 +1,8 @@
 # Ejercicio 3
 
-peso = 75
+peso = float(input("Cual es tu peso en Kilogramos: "))
 
-altura = 1.80
+altura = float(input("Cual es tu estatura en Metros: "))
 
 imc = round(peso / pow(altura, 2), 2)
 
