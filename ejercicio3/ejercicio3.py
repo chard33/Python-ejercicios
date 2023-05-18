@@ -1,11 +1,9 @@
 # Ejercicio 3
 
-import math
-
 peso = 75
 
 altura = 1.80
 
-imc = peso / math.pow(altura, 2)
+imc = round(peso / pow(altura, 2), 2)
 
-print(imc)
+print(f'Tu índice de masa corporal es: {imc}')
