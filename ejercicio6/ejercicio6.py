@@ -7,7 +7,7 @@ class Vehículo:
 class Coche(Vehículo):
 
     Velocidad = 140
-    Cilindrada = 4
+    Cilindrada = 1500
 
 miCoche = Coche()
 
