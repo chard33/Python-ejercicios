@@ -5,7 +5,7 @@ def main():
 
 
 def escritura(fichero, texto):
-    
+
     archivo = open(fichero, "w")
 
     for linea in texto:
