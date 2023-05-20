@@ -4,8 +4,10 @@ def main():
     miVehiculo = Vehiculo("Azul", 2, 4)
 
     guardar(miVehiculo)
+    
+    nuevoVehiculo = cargar()
 
-    print(cargar())
+    print(nuevoVehiculo)
 
 class Vehiculo:
 
